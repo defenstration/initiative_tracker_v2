@@ -1,0 +1,89 @@
+/*--------------------------------*/
+/* Custom Properties              */
+/*--------------------------------*/
+
+/* Colors */
+:root {
+}
+
+/*--------------------------------*/
+/* Reset                          */
+/*--------------------------------*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Reset margins                          */
+
+body, h1, h2, h3, h4, p, ul, ol {
+    margin: 0
+}
+
+/* Set body                               */
+
+body {
+    font-family: 'Outfit', 'sans-serif';
+    width: 100vw;
+    min-width: 375px;
+    background-color:  hsl(var(--clr-stone100));
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-size: 16px;
+    color: hsl(var(--clr-stone900))
+}
+
+/* Image Settings                        */
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* remove animations for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {  
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+/*--------------------------------*/
+/* Utility Classes                */
+/*--------------------------------*/
+
+/* Screen Reader Only Class */
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Font Classes                   */
+
+/* Color Classes                  */
+
+/*--------------------------------*/
+/* Styling                        */
+/*--------------------------------*/
+
+
+/*--------------------------------*/
+/* Styling for small screens      */
+/*--------------------------------*/
