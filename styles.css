@@ -82,7 +82,34 @@ img {
 /*--------------------------------*/
 /* Styling                        */
 /*--------------------------------*/
+* {
+    border: 1px solid black;
+}
 
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 4rem repeat(6, 1fr);
+    width: 100%;
+    height: auto;
+    margin-inline: auto;
+}
+
+.initiative-bar {
+    grid-column: 1 / 5;
+    grid-row: 1;
+    padding-inline: 1.5rem;
+}
+
+.player-container {
+    grid-column: 1 / 3;
+    grid-row: 2 / auto;
+}
+
+.enemy-container {
+    grid-column: 3 / auto;
+    grid-row: 2 / auto;
+}
 
 /*--------------------------------*/
 /* Styling for small screens      */
