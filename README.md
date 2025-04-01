@@ -1,36 +1,7 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Initiative Tracker - V2
 
-## Getting Started
+This is an update to my original initiative tracker. I built that one last year when I was still pretty new to programming. Now I have more experience with tools like React and I think I can make a much better product, and add some features that I didn't think of before.
 
-First, run the development server:
+The premise is pretty simple, a tool to help GMs in TTRPGs keep track of combat. I know some GMs still love their scratchpads, but I found keeping everything straight to be fairly cumbersome. Not to mention keeping track of XP and drops, etc, etc. I think we can have a pretty lightweight companion that takes much of that work and gets it out of the way. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+In the early stages I want to add some graveyard functionality to track combat stats, but down the road I would love to tie this to a database of some form. It would be awesome to have a history of player kills to start something like bounties or that LOTR video game system that shall not be named. Eventually I want to add this to some other tools I am making and tie it to a world I am creating with my partner. 
